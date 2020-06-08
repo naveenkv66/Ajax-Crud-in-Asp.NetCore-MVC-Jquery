@@ -20,5 +20,6 @@ namespace AjaxCRUDInASPNETCore.Models
         public double Salary { get; set; }
         [Column(TypeName = "nvarchar(60)")]
         public string Email { get; set; }
+        public DateTime Date { get; set; }
     }
 }
